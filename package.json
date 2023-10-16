@@ -1,0 +1,24 @@
+{
+  "name": "pandacss-bug",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "panda": "panda codegen",
+    "prepare": "pnpm panda"
+  },
+  "peerDependencies": {
+    "@pandacss/dev": "^0.13.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5"
+  }
+}
